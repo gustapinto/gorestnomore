@@ -1,0 +1,17 @@
+{
+    "name": "Golang",
+    "dockerComposeFile": [
+        "../docker-compose.yml",
+    ],
+    "service": "go",
+    "workspaceFolder": "/app",
+    "settings": {},
+    "runServices": [
+        "go",
+        "postgres"
+    ],
+    "extensions": [
+        "golang.go",
+        "monokai.theme-monokai-pro-vscode"
+    ]
+}
